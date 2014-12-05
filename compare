@@ -1,0 +1,9 @@
+#! /bin/bash
+read x
+if [ $x -gt 0 ]
+then  echo larger than 0
+elif [ $x -eq 0 ]
+then echo equal to 0
+else
+echo less than 0
+fi
