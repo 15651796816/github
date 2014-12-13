@@ -1,0 +1,8 @@
+#! /bin/bash
+for score in 35 90 55 60 100 83 48 78
+   do
+if  [ $score -ge 60 ]
+then echo "$score-----pass"
+else
+echo "$score-----fall"
+fi
